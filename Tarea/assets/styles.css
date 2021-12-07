@@ -1,0 +1,51 @@
+
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Categorias */
+.categorias {
+    padding-top: 5rem;
+  }
+  
+  
+  .categoria a {
+    text-align: center;
+    display: flex;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  
+  .categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .listado-categorias {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  /** Utilidades */
+.text-center {
+    text-align: center;
+  }
